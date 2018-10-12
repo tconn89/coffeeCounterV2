@@ -1,28 +1,31 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './css/App.css';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+import {BrowserRouter, Route} from 'react-router-dom';
+
+import Layout from './layout/Layout.component';
+import React from 'react';
+import {routes} from './Routes';
+
+class App extends React.Component {
+    render() {
+        return (
+            <BrowserRouter>
+                <div>
+                    <link
+                        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+                        rel="stylesheet"
+                    />
+                    <Layout>
+                        {
+                            routes.map((route) => (
+                                <Route exact={route.exact} path={route.path} component={route.component} />
+                            ))
+                        }
+                    </Layout>
+                </div>
+            </BrowserRouter>
+        );
+    }
 }
 
 export default App;

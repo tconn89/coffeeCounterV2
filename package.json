@@ -1,11 +1,14 @@
 {
-  "name": "rmwc-test",
+  "name": "react-right-meow",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "material-design-icons-iconfont": "^3.0.3",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-scripts": "2.0.4"
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.0.4",
+    "rmwc": "^3.0.4"
   },
   "scripts": {
     "start": "react-scripts start",

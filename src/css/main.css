@@ -1,0 +1,7 @@
+.content {
+    display: flex;
+    justify-content: center;
+    /* Make it so the page contents aren't covered by the top nav bar */
+    position: relative;
+    top: 64px; /* Height of the top nav bar */
+  }

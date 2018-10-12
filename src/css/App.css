@@ -1,3 +1,5 @@
+/* Default (mostly) CSS that comes with create-react-app */
+
 .App {
   text-align: center;
 }
@@ -15,6 +17,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  width: 100%; /* Added to counter flexbox settings in main.css */
   color: white;
 }
 

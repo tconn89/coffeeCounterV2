@@ -732,6 +732,709 @@
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
 
+"@material/animation@^0.40.1":
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/animation/-/animation-0.40.1.tgz#c5ff31e7d7e17324a0045e889d3530b150b9fcec"
+
+"@material/animation@~0.39.0":
+  version "0.39.0"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/animation/-/animation-0.39.0.tgz#d3d503c9f87ac1193dc4a5b0cccfaedb39478439"
+
+"@material/auto-init@^0.39.0":
+  version "0.39.0"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/auto-init/-/auto-init-0.39.0.tgz#9bf4af107ca18e1bd782a9ee12ace65c5b9b6399"
+
+"@material/base@^0.40.1":
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/base/-/base-0.40.1.tgz#a0d8e19cee98dae0f96dbf0887a14b3f7acd2aac"
+
+"@material/button@^0.40.1", "@material/button@~0.40.0":
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/button/-/button-0.40.1.tgz#b5a8657f7d3783d7fc0936f95d0187bdb0319eae"
+  dependencies:
+    "@material/elevation" "^0.40.1"
+    "@material/ripple" "^0.40.1"
+    "@material/rtl" "^0.40.1"
+    "@material/shape" "^0.40.1"
+    "@material/theme" "^0.40.1"
+    "@material/typography" "^0.40.1"
+
+"@material/card@^0.40.1", "@material/card@~0.40.0":
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/card/-/card-0.40.1.tgz#0b48a9a985b8f65d48f28a7913296354bcca05f8"
+  dependencies:
+    "@material/elevation" "^0.40.1"
+    "@material/ripple" "^0.40.1"
+    "@material/rtl" "^0.40.1"
+    "@material/shape" "^0.40.1"
+    "@material/theme" "^0.40.1"
+
+"@material/checkbox@^0.40.1", "@material/checkbox@~0.40.0":
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/checkbox/-/checkbox-0.40.1.tgz#7528b3e07436987b0501b9cc17a3a98a5d403277"
+  dependencies:
+    "@material/animation" "^0.40.1"
+    "@material/base" "^0.40.1"
+    "@material/ripple" "^0.40.1"
+    "@material/rtl" "^0.40.1"
+    "@material/selection-control" "^0.40.1"
+    "@material/theme" "^0.40.1"
+
+"@material/chips@^0.40.1", "@material/chips@~0.40.0":
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/chips/-/chips-0.40.1.tgz#445e5933e4ce497691a6b85f818d0e95c898ffe4"
+  dependencies:
+    "@material/animation" "^0.40.1"
+    "@material/base" "^0.40.1"
+    "@material/checkbox" "^0.40.1"
+    "@material/elevation" "^0.40.1"
+    "@material/ripple" "^0.40.1"
+    "@material/shape" "^0.40.1"
+    "@material/theme" "^0.40.1"
+    "@material/typography" "^0.40.1"
+
+"@material/dialog@^0.40.1", "@material/dialog@~0.40.0":
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/dialog/-/dialog-0.40.1.tgz#fd197fa60b40362ac86cbfb1951ff7af5a5456fb"
+  dependencies:
+    "@material/animation" "^0.40.1"
+    "@material/base" "^0.40.1"
+    "@material/dom" "^0.40.0"
+    "@material/elevation" "^0.40.1"
+    "@material/ripple" "^0.40.1"
+    "@material/rtl" "^0.40.1"
+    "@material/shape" "^0.40.1"
+    "@material/theme" "^0.40.1"
+    "@material/typography" "^0.40.1"
+    focus-trap "^2.3.0"
+
+"@material/dom@^0.40.0", "@material/dom@~0.40.0":
+  version "0.40.0"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/dom/-/dom-0.40.0.tgz#c0bfdf13f76546d35db7492fd6d4167721aac376"
+
+"@material/drawer@^0.40.1", "@material/drawer@~0.40.0":
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/drawer/-/drawer-0.40.1.tgz#a5eeb09d270f305daa71407b37437f353814526b"
+  dependencies:
+    "@material/animation" "^0.40.1"
+    "@material/base" "^0.40.1"
+    "@material/elevation" "^0.40.1"
+    "@material/list" "^0.40.1"
+    "@material/ripple" "^0.40.1"
+    "@material/rtl" "^0.40.1"
+    "@material/shape" "^0.40.1"
+    "@material/theme" "^0.40.1"
+    "@material/typography" "^0.40.1"
+    focus-trap "^3.0.0"
+
+"@material/elevation@^0.40.1", "@material/elevation@~0.40.0":
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/elevation/-/elevation-0.40.1.tgz#beb17eb90bde94459c41cd826c2de13f13b10b25"
+  dependencies:
+    "@material/animation" "^0.40.1"
+    "@material/theme" "^0.40.1"
+
+"@material/fab@^0.40.1", "@material/fab@~0.40.0":
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/fab/-/fab-0.40.1.tgz#423f66e701685e5744fedbdb0d853ea602f83529"
+  dependencies:
+    "@material/animation" "^0.40.1"
+    "@material/elevation" "^0.40.1"
+    "@material/ripple" "^0.40.1"
+    "@material/rtl" "^0.40.1"
+    "@material/shape" "^0.40.1"
+    "@material/theme" "^0.40.1"
+    "@material/typography" "^0.40.1"
+
+"@material/floating-label@^0.40.1", "@material/floating-label@~0.40.0":
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/floating-label/-/floating-label-0.40.1.tgz#1f025e414fde754d6d1ac57757b4da207ed01fa0"
+  dependencies:
+    "@material/animation" "^0.40.1"
+    "@material/base" "^0.40.1"
+    "@material/rtl" "^0.40.1"
+    "@material/theme" "^0.40.1"
+    "@material/typography" "^0.40.1"
+
+"@material/form-field@^0.40.1", "@material/form-field@~0.40.0":
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/form-field/-/form-field-0.40.1.tgz#78222ce355ba6a94732002721321c5d0bc39261f"
+  dependencies:
+    "@material/base" "^0.40.1"
+    "@material/rtl" "^0.40.1"
+    "@material/selection-control" "^0.40.1"
+    "@material/theme" "^0.40.1"
+    "@material/typography" "^0.40.1"
+
+"@material/grid-list@^0.40.1", "@material/grid-list@~0.40.0":
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/grid-list/-/grid-list-0.40.1.tgz#e570e1b04692129ef1a8ac45401b0524dbeeb320"
+  dependencies:
+    "@material/base" "^0.40.1"
+    "@material/rtl" "^0.40.1"
+    "@material/theme" "^0.40.1"
+    "@material/typography" "^0.40.1"
+
+"@material/icon-button@^0.40.1", "@material/icon-button@~0.40.0":
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/icon-button/-/icon-button-0.40.1.tgz#6c00bb25a905b0cd686468dde95f4cc45c6585ee"
+  dependencies:
+    "@material/base" "^0.40.1"
+    "@material/ripple" "^0.40.1"
+    "@material/theme" "^0.40.1"
+
+"@material/icon-toggle@^0.40.1":
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/icon-toggle/-/icon-toggle-0.40.1.tgz#807cd63137a45078386fb9d835d8a699abeabec9"
+  dependencies:
+    "@material/animation" "^0.40.1"
+    "@material/base" "^0.40.1"
+    "@material/ripple" "^0.40.1"
+    "@material/theme" "^0.40.1"
+
+"@material/image-list@^0.40.1", "@material/image-list@~0.40.0":
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/image-list/-/image-list-0.40.1.tgz#8ce15459a2451e6241c681bf79515a3b0fcb5f51"
+  dependencies:
+    "@material/shape" "^0.40.1"
+    "@material/theme" "^0.40.1"
+    "@material/typography" "^0.40.1"
+
+"@material/layout-grid@^0.40.1":
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/layout-grid/-/layout-grid-0.40.1.tgz#66bbcae895f8650ee48157a770c8cff1b314755c"
+
+"@material/layout-grid@~0.39.0":
+  version "0.39.0"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/layout-grid/-/layout-grid-0.39.0.tgz#8e96645404cfee2655999bc591264c434897af3d"
+
+"@material/line-ripple@^0.40.1", "@material/line-ripple@~0.40.0":
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/line-ripple/-/line-ripple-0.40.1.tgz#b31193544348c8dbc698a75f62a84630557ac093"
+  dependencies:
+    "@material/animation" "^0.40.1"
+    "@material/base" "^0.40.1"
+    "@material/theme" "^0.40.1"
+
+"@material/linear-progress@^0.40.1", "@material/linear-progress@~0.40.0":
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/linear-progress/-/linear-progress-0.40.1.tgz#c0e9200540a3458324f50eda91f5cd7823302e27"
+  dependencies:
+    "@material/animation" "^0.40.1"
+    "@material/base" "^0.40.1"
+    "@material/theme" "^0.40.1"
+
+"@material/list@^0.40.1", "@material/list@~0.40.0":
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/list/-/list-0.40.1.tgz#0734917212156443868c56fc49f06333cdba7512"
+  dependencies:
+    "@material/base" "^0.40.1"
+    "@material/dom" "^0.40.0"
+    "@material/ripple" "^0.40.1"
+    "@material/rtl" "^0.40.1"
+    "@material/shape" "^0.40.1"
+    "@material/theme" "^0.40.1"
+    "@material/typography" "^0.40.1"
+
+"@material/menu-surface@^0.40.1", "@material/menu-surface@~0.40.0":
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/menu-surface/-/menu-surface-0.40.1.tgz#d0905626e6e99d3009b52cdbeaf51ebfa00161af"
+  dependencies:
+    "@material/animation" "^0.40.1"
+    "@material/base" "^0.40.1"
+    "@material/elevation" "^0.40.1"
+    "@material/rtl" "^0.40.1"
+    "@material/shape" "^0.40.1"
+    "@material/theme" "^0.40.1"
+
+"@material/menu@^0.40.1", "@material/menu@~0.40.0":
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/menu/-/menu-0.40.1.tgz#befdac6518c5bf03873499245aa185fb39cf109a"
+  dependencies:
+    "@material/base" "^0.40.1"
+    "@material/list" "^0.40.1"
+    "@material/menu-surface" "^0.40.1"
+    "@material/ripple" "^0.40.1"
+    "@material/rtl" "^0.40.1"
+
+"@material/notched-outline@^0.40.1", "@material/notched-outline@~0.40.0":
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/notched-outline/-/notched-outline-0.40.1.tgz#544ee4f06adcd9294885c08a488d2657e7d65f0b"
+  dependencies:
+    "@material/animation" "^0.40.1"
+    "@material/base" "^0.40.1"
+    "@material/rtl" "^0.40.1"
+    "@material/shape" "^0.40.1"
+    "@material/theme" "^0.40.1"
+
+"@material/radio@^0.40.1", "@material/radio@~0.40.0":
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/radio/-/radio-0.40.1.tgz#3e53ee45ac78e96ee56b602b32575e00e9fecca8"
+  dependencies:
+    "@material/animation" "^0.40.1"
+    "@material/base" "^0.40.1"
+    "@material/ripple" "^0.40.1"
+    "@material/selection-control" "^0.40.1"
+    "@material/theme" "^0.40.1"
+
+"@material/ripple@^0.40.1", "@material/ripple@~0.40.0":
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/ripple/-/ripple-0.40.1.tgz#57cbc689303b48282229cb9b62556af7442e852a"
+  dependencies:
+    "@material/animation" "^0.40.1"
+    "@material/base" "^0.40.1"
+    "@material/theme" "^0.40.1"
+
+"@material/rtl@^0.40.1":
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/rtl/-/rtl-0.40.1.tgz#5b0d973e3c6f8e2ea3656c06ada37ba2fedfa206"
+
+"@material/select@^0.40.1", "@material/select@~0.40.0":
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/select/-/select-0.40.1.tgz#16ae8609a6d821dca231ce54f09b013e4343684c"
+  dependencies:
+    "@material/animation" "^0.40.1"
+    "@material/base" "^0.40.1"
+    "@material/floating-label" "^0.40.1"
+    "@material/line-ripple" "^0.40.1"
+    "@material/notched-outline" "^0.40.1"
+    "@material/ripple" "^0.40.1"
+    "@material/rtl" "^0.40.1"
+    "@material/shape" "^0.40.1"
+    "@material/theme" "^0.40.1"
+    "@material/typography" "^0.40.1"
+
+"@material/selection-control@^0.40.1":
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/selection-control/-/selection-control-0.40.1.tgz#501784eb2166bca150b88bb9c09e1a7947e17f96"
+  dependencies:
+    "@material/ripple" "^0.40.1"
+
+"@material/shape@^0.40.1":
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/shape/-/shape-0.40.1.tgz#bd4224902896c3d45fab353d788fe6c4866483a8"
+
+"@material/slider@^0.40.1", "@material/slider@~0.40.0":
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/slider/-/slider-0.40.1.tgz#f5e177b3252f6d822ebc339a50095a1dcd20eee5"
+  dependencies:
+    "@material/animation" "^0.40.1"
+    "@material/base" "^0.40.1"
+    "@material/rtl" "^0.40.1"
+    "@material/theme" "^0.40.1"
+    "@material/typography" "^0.40.1"
+
+"@material/snackbar@^0.40.1", "@material/snackbar@~0.40.0":
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/snackbar/-/snackbar-0.40.1.tgz#1af2dfcb766686daa2d9b41f2b20579ae6c26b54"
+  dependencies:
+    "@material/animation" "^0.40.1"
+    "@material/base" "^0.40.1"
+    "@material/rtl" "^0.40.1"
+    "@material/theme" "^0.40.1"
+    "@material/typography" "^0.40.1"
+
+"@material/switch@^0.40.1", "@material/switch@~0.40.0":
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/switch/-/switch-0.40.1.tgz#cea8f1fa2d2241104d23d155b5db29f79d0b9168"
+  dependencies:
+    "@material/animation" "^0.40.1"
+    "@material/base" "^0.40.1"
+    "@material/elevation" "^0.40.1"
+    "@material/ripple" "^0.40.1"
+    "@material/rtl" "^0.40.1"
+    "@material/selection-control" "^0.40.1"
+    "@material/theme" "^0.40.1"
+
+"@material/tab-bar@^0.40.1", "@material/tab-bar@~0.40.0":
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/tab-bar/-/tab-bar-0.40.1.tgz#d9a324ca8d67e7427f5a6664c79419ede6b71d7b"
+  dependencies:
+    "@material/base" "^0.40.1"
+    "@material/elevation" "^0.40.1"
+    "@material/tab" "^0.40.1"
+    "@material/tab-scroller" "^0.40.1"
+
+"@material/tab-indicator@^0.40.1", "@material/tab-indicator@~0.40.0":
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/tab-indicator/-/tab-indicator-0.40.1.tgz#f6cdbb709276ca9b0b92e5f57a53515c0f1c6646"
+  dependencies:
+    "@material/animation" "^0.40.1"
+    "@material/base" "^0.40.1"
+    "@material/theme" "^0.40.1"
+
+"@material/tab-scroller@^0.40.1", "@material/tab-scroller@~0.40.0":
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/tab-scroller/-/tab-scroller-0.40.1.tgz#41dd9086ce0f6a3294464e6e6c51e6794b7059ee"
+  dependencies:
+    "@material/animation" "^0.40.1"
+    "@material/base" "^0.40.1"
+    "@material/tab" "^0.40.1"
+
+"@material/tab@^0.40.1", "@material/tab@~0.40.0":
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/tab/-/tab-0.40.1.tgz#16cab0bb3c437c0cac31994df8f0b80ab442d037"
+  dependencies:
+    "@material/base" "^0.40.1"
+    "@material/ripple" "^0.40.1"
+    "@material/rtl" "^0.40.1"
+    "@material/tab-indicator" "^0.40.1"
+    "@material/theme" "^0.40.1"
+    "@material/typography" "^0.40.1"
+
+"@material/textfield@^0.40.1", "@material/textfield@~0.40.0":
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/textfield/-/textfield-0.40.1.tgz#6ea17eb248e9777c08856858367ccec7d1a0d916"
+  dependencies:
+    "@material/animation" "^0.40.1"
+    "@material/base" "^0.40.1"
+    "@material/floating-label" "^0.40.1"
+    "@material/line-ripple" "^0.40.1"
+    "@material/notched-outline" "^0.40.1"
+    "@material/ripple" "^0.40.1"
+    "@material/rtl" "^0.40.1"
+    "@material/shape" "^0.40.1"
+    "@material/theme" "^0.40.1"
+    "@material/typography" "^0.40.1"
+
+"@material/theme@^0.40.1", "@material/theme@~0.40.0":
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/theme/-/theme-0.40.1.tgz#3cc3f1bf87ee9581df03e347a1979e53ae617221"
+
+"@material/toolbar@^0.40.1", "@material/toolbar@~0.40.0":
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/toolbar/-/toolbar-0.40.1.tgz#c3f49c7911311ee5a858b24ffca1eaed909777c2"
+  dependencies:
+    "@material/base" "^0.40.1"
+    "@material/elevation" "^0.40.1"
+    "@material/ripple" "^0.40.1"
+    "@material/rtl" "^0.40.1"
+    "@material/theme" "^0.40.1"
+    "@material/typography" "^0.40.1"
+
+"@material/top-app-bar@^0.40.1", "@material/top-app-bar@~0.40.0":
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/top-app-bar/-/top-app-bar-0.40.1.tgz#923523a803818e1e29b237b974c64c9f66746f29"
+  dependencies:
+    "@material/animation" "^0.40.1"
+    "@material/base" "^0.40.1"
+    "@material/elevation" "^0.40.1"
+    "@material/ripple" "^0.40.1"
+    "@material/rtl" "^0.40.1"
+    "@material/shape" "^0.40.1"
+    "@material/theme" "^0.40.1"
+    "@material/typography" "^0.40.1"
+
+"@material/typography@^0.40.1":
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/typography/-/typography-0.40.1.tgz#68ecb767f7c54ca2f4053cccdd1c4a0198e60f9b"
+
+"@material/typography@~0.39.0":
+  version "0.39.0"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@material/typography/-/typography-0.39.0.tgz#7d7468673e104609d926528ffe5571cfd44d8c3c"
+
+"@rmwc/base@^3.0.4":
+  version "3.0.4"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@rmwc/base/-/base-3.0.4.tgz#e2a09458d9ab756e3145b60d9e6490fc43251a42"
+  dependencies:
+    classnames "^2.2.5"
+    hyperform "^0.9.9"
+    mutation-observer "^1.0.3"
+
+"@rmwc/button@^3.0.4":
+  version "3.0.4"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@rmwc/button/-/button-3.0.4.tgz#6b98e74c9344dd195cbf969b1a4607bf222815a6"
+  dependencies:
+    "@material/button" "~0.40.0"
+    "@rmwc/base" "^3.0.4"
+    "@rmwc/icon" "^3.0.4"
+    "@rmwc/provider" "^3.0.3"
+    "@rmwc/ripple" "^3.0.4"
+    prop-types "^15.6.1"
+
+"@rmwc/card@^3.0.4":
+  version "3.0.4"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@rmwc/card/-/card-3.0.4.tgz#2424b6b992583faddc078ccb0306c27e92e286da"
+  dependencies:
+    "@material/card" "~0.40.0"
+    "@rmwc/base" "^3.0.4"
+    "@rmwc/button" "^3.0.4"
+    "@rmwc/icon-button" "^3.0.4"
+    "@rmwc/ripple" "^3.0.4"
+
+"@rmwc/checkbox@^3.0.4":
+  version "3.0.4"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@rmwc/checkbox/-/checkbox-3.0.4.tgz#97282ab7ee6afaf02d7e8b18ac0a2b6d16fc051e"
+  dependencies:
+    "@material/checkbox" "~0.40.0"
+    "@rmwc/base" "^3.0.4"
+    "@rmwc/formfield" "^3.0.4"
+    "@rmwc/ripple" "^3.0.4"
+
+"@rmwc/chip@^3.0.4":
+  version "3.0.4"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@rmwc/chip/-/chip-3.0.4.tgz#8bc29961620fa160e9d31de8ccc3c7c1af9b4d38"
+  dependencies:
+    "@material/chips" "~0.40.0"
+    "@material/ripple" "~0.40.0"
+    "@rmwc/base" "^3.0.4"
+    "@rmwc/icon" "^3.0.4"
+
+"@rmwc/circular-progress@^3.0.4":
+  version "3.0.4"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@rmwc/circular-progress/-/circular-progress-3.0.4.tgz#624da437587446cd9b183937de29f1582f69cfc6"
+  dependencies:
+    "@rmwc/base" "^3.0.4"
+
+"@rmwc/data-table@^3.0.4":
+  version "3.0.4"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@rmwc/data-table/-/data-table-3.0.4.tgz#bd7ce95228d763a551e1b01bac12570b0c17a31d"
+  dependencies:
+    "@rmwc/base" "^3.0.4"
+    "@rmwc/icon" "^3.0.4"
+
+"@rmwc/dialog@^3.0.4":
+  version "3.0.4"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@rmwc/dialog/-/dialog-3.0.4.tgz#474fd361330f80e5617eb34ce546dc52982f749e"
+  dependencies:
+    "@material/dialog" "~0.40.0"
+    "@material/dom" "~0.40.0"
+    "@rmwc/base" "^3.0.4"
+    "@rmwc/button" "^3.0.4"
+    focus-trap "^2.3.0"
+
+"@rmwc/drawer@^3.0.4":
+  version "3.0.4"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@rmwc/drawer/-/drawer-3.0.4.tgz#5aa7aa7e82abd636d91aae2a7c9f4820c7d05a84"
+  dependencies:
+    "@material/drawer" "~0.40.0"
+    "@rmwc/base" "^3.0.4"
+
+"@rmwc/elevation@^3.0.4":
+  version "3.0.4"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@rmwc/elevation/-/elevation-3.0.4.tgz#4e4203158fcf4e82cdfd5fb42e8c29c820295bc7"
+  dependencies:
+    "@material/elevation" "~0.40.0"
+    "@rmwc/base" "^3.0.4"
+
+"@rmwc/fab@^3.0.4":
+  version "3.0.4"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@rmwc/fab/-/fab-3.0.4.tgz#c118ccbf02cb915ec0f81691781e49310b603b5d"
+  dependencies:
+    "@material/fab" "~0.40.0"
+    "@rmwc/base" "^3.0.4"
+    "@rmwc/icon" "^3.0.4"
+    "@rmwc/provider" "^3.0.3"
+    "@rmwc/ripple" "^3.0.4"
+    classnames "^2.2.5"
+    prop-types "^15.6.1"
+
+"@rmwc/floating-label@^3.0.4":
+  version "3.0.4"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@rmwc/floating-label/-/floating-label-3.0.4.tgz#1858ca21102fb5008acfb13e5eaebaca086172b3"
+  dependencies:
+    "@material/floating-label" "~0.40.0"
+    "@rmwc/base" "^3.0.4"
+
+"@rmwc/formfield@^3.0.4":
+  version "3.0.4"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@rmwc/formfield/-/formfield-3.0.4.tgz#6c02c8058f59767d3a5c84b5c1eac773e5c5f6c2"
+  dependencies:
+    "@material/form-field" "~0.40.0"
+    "@rmwc/base" "^3.0.4"
+
+"@rmwc/grid-list@^3.0.4":
+  version "3.0.4"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@rmwc/grid-list/-/grid-list-3.0.4.tgz#0ba1fb401f6ef6b3c328d78fedef86c8c94d32be"
+  dependencies:
+    "@material/grid-list" "~0.40.0"
+    "@rmwc/base" "^3.0.4"
+    "@rmwc/icon" "^3.0.4"
+
+"@rmwc/grid@^3.0.4":
+  version "3.0.4"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@rmwc/grid/-/grid-3.0.4.tgz#ce965ed7b5f1afcf4b1c6992e85dd0726d373218"
+  dependencies:
+    "@material/layout-grid" "~0.39.0"
+    "@rmwc/base" "^3.0.4"
+
+"@rmwc/icon-button@^3.0.4":
+  version "3.0.4"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@rmwc/icon-button/-/icon-button-3.0.4.tgz#7c55095ca7e40e5849e034312ca7dec2ba411079"
+  dependencies:
+    "@material/icon-button" "~0.40.0"
+    "@rmwc/base" "^3.0.4"
+    "@rmwc/icon" "^3.0.4"
+    "@rmwc/ripple" "^3.0.4"
+
+"@rmwc/icon@^3.0.4":
+  version "3.0.4"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@rmwc/icon/-/icon-3.0.4.tgz#a244f759d64444028c7155eb17b3b195a08ef017"
+  dependencies:
+    "@rmwc/base" "^3.0.4"
+    "@rmwc/provider" "^3.0.3"
+    classnames "^2.2.5"
+    prop-types "^15.6.1"
+
+"@rmwc/image-list@^3.0.4":
+  version "3.0.4"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@rmwc/image-list/-/image-list-3.0.4.tgz#0aaf2430d89a4dafeddaa4b9b3f4784561a03470"
+  dependencies:
+    "@material/image-list" "~0.40.0"
+    "@rmwc/base" "^3.0.4"
+
+"@rmwc/line-ripple@^3.0.4":
+  version "3.0.4"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@rmwc/line-ripple/-/line-ripple-3.0.4.tgz#a5059d6573d059040ae16009ddb6c1947d43bc43"
+  dependencies:
+    "@material/line-ripple" "~0.40.0"
+    "@rmwc/base" "^3.0.4"
+
+"@rmwc/linear-progress@^3.0.4":
+  version "3.0.4"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@rmwc/linear-progress/-/linear-progress-3.0.4.tgz#953a2cfdce6499a8932be670f19c2063fd976928"
+  dependencies:
+    "@material/linear-progress" "~0.40.0"
+    "@rmwc/base" "^3.0.4"
+
+"@rmwc/list@^3.0.4":
+  version "3.0.4"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@rmwc/list/-/list-3.0.4.tgz#5b38197eb26bbc1bd27f1f843a944d05303673fa"
+  dependencies:
+    "@material/list" "~0.40.0"
+    "@rmwc/base" "^3.0.4"
+    "@rmwc/icon" "^3.0.4"
+    "@rmwc/provider" "^3.0.3"
+    "@rmwc/ripple" "^3.0.4"
+    classnames "^2.2.5"
+    prop-types "^15.6.1"
+
+"@rmwc/menu@^3.0.4":
+  version "3.0.4"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@rmwc/menu/-/menu-3.0.4.tgz#bf3b37f357b03fde36c4af1af97ee09887f9abb8"
+  dependencies:
+    "@material/menu" "~0.40.0"
+    "@material/menu-surface" "~0.40.0"
+    "@rmwc/base" "^3.0.4"
+    "@rmwc/list" "^3.0.4"
+
+"@rmwc/notched-outline@^3.0.4":
+  version "3.0.4"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@rmwc/notched-outline/-/notched-outline-3.0.4.tgz#f936d979bde3ed4ecc22fc4e29aee31c1ad11423"
+  dependencies:
+    "@material/notched-outline" "~0.40.0"
+    "@rmwc/base" "^3.0.4"
+
+"@rmwc/provider@^3.0.3":
+  version "3.0.3"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@rmwc/provider/-/provider-3.0.3.tgz#71df798b6cf8d2f35f47d1f5c0a8baa3b4573ede"
+  dependencies:
+    prop-types "^15.6.1"
+
+"@rmwc/radio@^3.0.4":
+  version "3.0.4"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@rmwc/radio/-/radio-3.0.4.tgz#aae0548404730c89c445ca0739a480eb8282479e"
+  dependencies:
+    "@material/radio" "~0.40.0"
+    "@rmwc/base" "^3.0.4"
+    "@rmwc/formfield" "^3.0.4"
+
+"@rmwc/ripple@^3.0.4":
+  version "3.0.4"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@rmwc/ripple/-/ripple-3.0.4.tgz#17ba50d91826c85fea8ac6e8b60dfcd0c0bbb267"
+  dependencies:
+    "@material/ripple" "~0.40.0"
+    "@rmwc/base" "^3.0.4"
+    classnames "^2.2.5"
+
+"@rmwc/select@^3.0.4":
+  version "3.0.4"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@rmwc/select/-/select-3.0.4.tgz#0d4cb30b87ed81f2c8f1ba26c2624f559ef16238"
+  dependencies:
+    "@material/select" "~0.40.0"
+    "@rmwc/base" "^3.0.4"
+    "@rmwc/floating-label" "^3.0.4"
+    "@rmwc/line-ripple" "^3.0.4"
+    "@rmwc/notched-outline" "^3.0.4"
+
+"@rmwc/slider@^3.0.4":
+  version "3.0.4"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@rmwc/slider/-/slider-3.0.4.tgz#bd64e3910bc7d953fa7e0b92d7892ceddd9e7419"
+  dependencies:
+    "@material/slider" "~0.40.0"
+    "@rmwc/base" "^3.0.4"
+
+"@rmwc/snackbar@^3.0.4":
+  version "3.0.4"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@rmwc/snackbar/-/snackbar-3.0.4.tgz#4ed8c79d0ba602fd5c4c523dae788de7bb6c77c6"
+  dependencies:
+    "@material/animation" "~0.39.0"
+    "@material/snackbar" "~0.40.0"
+    "@rmwc/base" "^3.0.4"
+    "@rmwc/button" "^3.0.4"
+
+"@rmwc/switch@^3.0.4":
+  version "3.0.4"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@rmwc/switch/-/switch-3.0.4.tgz#872a1582a26a2647789460f1f11bdfaa15ec05cb"
+  dependencies:
+    "@material/switch" "~0.40.0"
+    "@rmwc/base" "^3.0.4"
+    "@rmwc/button" "^3.0.4"
+    "@rmwc/formfield" "^3.0.4"
+    classnames "^2.2.5"
+
+"@rmwc/tabs@^3.0.4":
+  version "3.0.4"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@rmwc/tabs/-/tabs-3.0.4.tgz#db43a6fd33ba8641a8b31a8d842cf29f962a1704"
+  dependencies:
+    "@material/tab" "~0.40.0"
+    "@material/tab-bar" "~0.40.0"
+    "@material/tab-indicator" "~0.40.0"
+    "@material/tab-scroller" "~0.40.0"
+    "@rmwc/base" "^3.0.4"
+    "@rmwc/icon" "^3.0.4"
+
+"@rmwc/textfield@^3.0.4":
+  version "3.0.4"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@rmwc/textfield/-/textfield-3.0.4.tgz#f59599769a084d3709643f5bd34233795070e98b"
+  dependencies:
+    "@material/textfield" "~0.40.0"
+    "@rmwc/base" "^3.0.4"
+    "@rmwc/floating-label" "^3.0.4"
+    "@rmwc/icon" "^3.0.4"
+    "@rmwc/line-ripple" "^3.0.4"
+    "@rmwc/notched-outline" "^3.0.4"
+
+"@rmwc/theme@^3.0.4":
+  version "3.0.4"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@rmwc/theme/-/theme-3.0.4.tgz#c8b3f925f9e339d3942c8773769cf3c88235c63e"
+  dependencies:
+    "@material/theme" "~0.40.0"
+    "@rmwc/base" "^3.0.4"
+
+"@rmwc/toolbar@^3.0.4":
+  version "3.0.4"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@rmwc/toolbar/-/toolbar-3.0.4.tgz#b06a2ede40c2e042199122f850d0a329660a4bc6"
+  dependencies:
+    "@material/toolbar" "~0.40.0"
+    "@rmwc/base" "^3.0.4"
+    "@rmwc/icon" "^3.0.4"
+
+"@rmwc/top-app-bar@^3.0.4":
+  version "3.0.4"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@rmwc/top-app-bar/-/top-app-bar-3.0.4.tgz#26ca877159c4fb6d0590da75616e96f35b178ac5"
+  dependencies:
+    "@material/top-app-bar" "~0.40.0"
+    "@rmwc/base" "^3.0.4"
+    "@rmwc/icon" "^3.0.4"
+
+"@rmwc/typography@^3.0.4":
+  version "3.0.4"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/@rmwc/typography/-/typography-3.0.4.tgz#ef94bad0bcbc14542bfbda6fed964b3ee953fee6"
+  dependencies:
+    "@material/typography" "~0.39.0"
+    "@rmwc/base" "^3.0.4"
+
 "@svgr/core@^2.4.1":
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/@svgr/core/-/core-2.4.1.tgz#03a407c28c4a1d84305ae95021e8eabfda8fa731"
@@ -1866,6 +2569,10 @@ class-utils@^0.3.5:
     define-property "^0.2.5"
     isobject "^3.0.0"
     static-extend "^0.1.1"
+
+classnames@^2.2.5:
+  version "2.2.6"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
 
 clean-css@4.2.x:
   version "4.2.1"
@@ -3301,6 +4008,19 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.1"
     readable-stream "^2.0.4"
 
+focus-trap@^2.3.0:
+  version "2.4.6"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/focus-trap/-/focus-trap-2.4.6.tgz#332b475b317cec6a4a129f5307ce7ebc0da90b40"
+  dependencies:
+    tabbable "^1.0.3"
+
+focus-trap@^3.0.0:
+  version "3.0.0"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/focus-trap/-/focus-trap-3.0.0.tgz#4d2ee044ae66bf7eb6ebc6c93bd7a1039481d7dc"
+  dependencies:
+    tabbable "^3.1.0"
+    xtend "^4.0.1"
+
 follow-redirects@^1.0.0:
   version "1.5.8"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.5.8.tgz#1dbfe13e45ad969f813e86c00e5296f525c885a1"
@@ -3681,6 +4401,16 @@ hex-color-regex@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/hex-color-regex/-/hex-color-regex-1.1.0.tgz#4c06fccb4602fe2602b3c93df82d7e7dbf1a8a8e"
 
+history@^4.7.2:
+  version "4.7.2"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/history/-/history-4.7.2.tgz#22b5c7f31633c5b8021c7f4a8a954ac139ee8d5b"
+  dependencies:
+    invariant "^2.2.1"
+    loose-envify "^1.2.0"
+    resolve-pathname "^2.2.0"
+    value-equal "^0.4.0"
+    warning "^3.0.0"
+
 hmac-drbg@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/hmac-drbg/-/hmac-drbg-1.0.1.tgz#d2745701025a6c775a6c545793ed502fc0c649a1"
@@ -3692,6 +4422,10 @@ hmac-drbg@^1.0.0:
 hoek@4.x.x:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/hoek/-/hoek-4.2.1.tgz#9634502aa12c445dd5a7c5734b572bb8738aacbb"
+
+hoist-non-react-statics@^2.5.0:
+  version "2.5.5"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/hoist-non-react-statics/-/hoist-non-react-statics-2.5.5.tgz#c5903cf409c0dfd908f388e619d86b9c1174cb47"
 
 home-or-tmp@^2.0.0:
   version "2.0.0"
@@ -3833,6 +4567,10 @@ https-browserify@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-1.0.0.tgz#ec06c10e0a34c0f2faf199f7fd7fc78fffd03c73"
 
+hyperform@^0.9.9:
+  version "0.9.21"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/hyperform/-/hyperform-0.9.21.tgz#1e5a55832c6e39bcda3c160f77a53368e2856305"
+
 iconv-lite@0.4.19:
   version "0.4.19"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.19.tgz#f7468f60135f5e5dad3399c0a81be9a1603a082b"
@@ -3959,7 +4697,7 @@ internal-ip@^3.0.1:
     default-gateway "^2.6.0"
     ipaddr.js "^1.5.2"
 
-invariant@^2.2.0, invariant@^2.2.2, invariant@^2.2.4:
+invariant@^2.2.0, invariant@^2.2.1, invariant@^2.2.2, invariant@^2.2.4:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   dependencies:
@@ -4989,7 +5727,7 @@ loglevel@^1.4.1:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/loglevel/-/loglevel-1.6.1.tgz#e0fc95133b6ef276cdc8887cdaf24aa6f156f8fa"
 
-loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.3.1:
+loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.2.0, loose-envify@^1.3.1:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   dependencies:
@@ -5037,6 +5775,58 @@ map-visit@^1.0.0:
   resolved "https://registry.yarnpkg.com/map-visit/-/map-visit-1.0.0.tgz#ecdca8f13144e660f1b5bd41f12f3479d98dfb8f"
   dependencies:
     object-visit "^1.0.0"
+
+material-components-web@~0.40.0:
+  version "0.40.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/material-components-web/-/material-components-web-0.40.1.tgz#793542d0fd7cf981e1504779ac9c8a6c363b1fbc"
+  dependencies:
+    "@material/animation" "^0.40.1"
+    "@material/auto-init" "^0.39.0"
+    "@material/base" "^0.40.1"
+    "@material/button" "^0.40.1"
+    "@material/card" "^0.40.1"
+    "@material/checkbox" "^0.40.1"
+    "@material/chips" "^0.40.1"
+    "@material/dialog" "^0.40.1"
+    "@material/dom" "^0.40.0"
+    "@material/drawer" "^0.40.1"
+    "@material/elevation" "^0.40.1"
+    "@material/fab" "^0.40.1"
+    "@material/floating-label" "^0.40.1"
+    "@material/form-field" "^0.40.1"
+    "@material/grid-list" "^0.40.1"
+    "@material/icon-button" "^0.40.1"
+    "@material/icon-toggle" "^0.40.1"
+    "@material/image-list" "^0.40.1"
+    "@material/layout-grid" "^0.40.1"
+    "@material/line-ripple" "^0.40.1"
+    "@material/linear-progress" "^0.40.1"
+    "@material/list" "^0.40.1"
+    "@material/menu" "^0.40.1"
+    "@material/menu-surface" "^0.40.1"
+    "@material/notched-outline" "^0.40.1"
+    "@material/radio" "^0.40.1"
+    "@material/ripple" "^0.40.1"
+    "@material/rtl" "^0.40.1"
+    "@material/select" "^0.40.1"
+    "@material/selection-control" "^0.40.1"
+    "@material/shape" "^0.40.1"
+    "@material/slider" "^0.40.1"
+    "@material/snackbar" "^0.40.1"
+    "@material/switch" "^0.40.1"
+    "@material/tab" "^0.40.1"
+    "@material/tab-bar" "^0.40.1"
+    "@material/tab-indicator" "^0.40.1"
+    "@material/tab-scroller" "^0.40.1"
+    "@material/textfield" "^0.40.1"
+    "@material/theme" "^0.40.1"
+    "@material/toolbar" "^0.40.1"
+    "@material/top-app-bar" "^0.40.1"
+    "@material/typography" "^0.40.1"
+
+material-design-icons-iconfont@^3.0.3:
+  version "3.0.3"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/material-design-icons-iconfont/-/material-design-icons-iconfont-3.0.3.tgz#154a1084047d4e27237fa7f5a37e1075ceea6df2"
 
 math-random@^1.0.1:
   version "1.0.1"
@@ -5296,6 +6086,10 @@ multicast-dns@^6.0.1:
   dependencies:
     dns-packet "^1.3.1"
     thunky "^1.0.2"
+
+mutation-observer@^1.0.3:
+  version "1.0.3"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/mutation-observer/-/mutation-observer-1.0.3.tgz#42e9222b101bca82e5ba9d5a7acf4a14c0f263d0"
 
 mute-stream@0.0.7:
   version "0.0.7"
@@ -5803,6 +6597,12 @@ path-parse@^1.0.5:
 path-to-regexp@0.1.7:
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-0.1.7.tgz#df604178005f522f15eb4490e7247a1bfaa67f8c"
+
+path-to-regexp@^1.7.0:
+  version "1.7.0"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/path-to-regexp/-/path-to-regexp-1.7.0.tgz#59fde0f435badacba103a84e9d3bc64e96b9937d"
+  dependencies:
+    isarray "0.0.1"
 
 path-type@^1.0.0:
   version "1.1.0"
@@ -6507,7 +7307,7 @@ prompts@^0.1.9:
     kleur "^2.0.1"
     sisteransi "^0.1.1"
 
-prop-types@^15.6.2:
+prop-types@^15.6.1, prop-types@^15.6.2:
   version "15.6.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.2.tgz#05d5ca77b4453e985d60fc7ff8c859094a497102"
   dependencies:
@@ -6688,7 +7488,7 @@ react-dev-utils@^6.0.4:
     strip-ansi "4.0.0"
     text-table "0.2.0"
 
-react-dom@16.5.2:
+react-dom@^16.5.2:
   version "16.5.2"
   resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/react-dom/-/react-dom-16.5.2.tgz#b69ee47aa20bab5327b2b9d7c1fe2a30f2cfa9d7"
   dependencies:
@@ -6700,6 +7500,29 @@ react-dom@16.5.2:
 react-error-overlay@^5.0.4:
   version "5.0.4"
   resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/react-error-overlay/-/react-error-overlay-5.0.4.tgz#39cf184d770f98b65a2ee59a779d03b8d092b69e"
+
+react-router-dom@^4.3.1:
+  version "4.3.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/react-router-dom/-/react-router-dom-4.3.1.tgz#4c2619fc24c4fa87c9fd18f4fb4a43fe63fbd5c6"
+  dependencies:
+    history "^4.7.2"
+    invariant "^2.2.4"
+    loose-envify "^1.3.1"
+    prop-types "^15.6.1"
+    react-router "^4.3.1"
+    warning "^4.0.1"
+
+react-router@^4.3.1:
+  version "4.3.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/react-router/-/react-router-4.3.1.tgz#aada4aef14c809cb2e686b05cee4742234506c4e"
+  dependencies:
+    history "^4.7.2"
+    hoist-non-react-statics "^2.5.0"
+    invariant "^2.2.4"
+    loose-envify "^1.3.1"
+    path-to-regexp "^1.7.0"
+    prop-types "^15.6.1"
+    warning "^4.0.1"
 
 react-scripts@2.0.4:
   version "2.0.4"
@@ -6754,7 +7577,7 @@ react-scripts@2.0.4:
   optionalDependencies:
     fsevents "1.2.4"
 
-react@16.5.2:
+react@^16.5.2:
   version "16.5.2"
   resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/react/-/react-16.5.2.tgz#19f6b444ed139baa45609eee6dc3d318b3895d42"
   dependencies:
@@ -7036,6 +7859,10 @@ resolve-from@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/resolve-from/-/resolve-from-3.0.0.tgz#b22c7af7d9d6881bc8b6e653335eebcb0a188748"
 
+resolve-pathname@^2.2.0:
+  version "2.2.0"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/resolve-pathname/-/resolve-pathname-2.2.0.tgz#7e9ae21ed815fd63ab189adeee64dc831eefa879"
+
 resolve-url@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/resolve-url/-/resolve-url-0.2.1.tgz#2c637fe77c893afd2a663fe21aa9080068e2052a"
@@ -7081,6 +7908,48 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
   dependencies:
     hash-base "^3.0.0"
     inherits "^2.0.1"
+
+rmwc@^3.0.4:
+  version "3.0.4"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/rmwc/-/rmwc-3.0.4.tgz#a5ecaa83683242b6f818c0aebf8c42cbc6d8e0ea"
+  dependencies:
+    "@rmwc/base" "^3.0.4"
+    "@rmwc/button" "^3.0.4"
+    "@rmwc/card" "^3.0.4"
+    "@rmwc/checkbox" "^3.0.4"
+    "@rmwc/chip" "^3.0.4"
+    "@rmwc/circular-progress" "^3.0.4"
+    "@rmwc/data-table" "^3.0.4"
+    "@rmwc/dialog" "^3.0.4"
+    "@rmwc/drawer" "^3.0.4"
+    "@rmwc/elevation" "^3.0.4"
+    "@rmwc/fab" "^3.0.4"
+    "@rmwc/floating-label" "^3.0.4"
+    "@rmwc/formfield" "^3.0.4"
+    "@rmwc/grid" "^3.0.4"
+    "@rmwc/grid-list" "^3.0.4"
+    "@rmwc/icon" "^3.0.4"
+    "@rmwc/icon-button" "^3.0.4"
+    "@rmwc/image-list" "^3.0.4"
+    "@rmwc/line-ripple" "^3.0.4"
+    "@rmwc/linear-progress" "^3.0.4"
+    "@rmwc/list" "^3.0.4"
+    "@rmwc/menu" "^3.0.4"
+    "@rmwc/notched-outline" "^3.0.4"
+    "@rmwc/provider" "^3.0.3"
+    "@rmwc/radio" "^3.0.4"
+    "@rmwc/ripple" "^3.0.4"
+    "@rmwc/select" "^3.0.4"
+    "@rmwc/slider" "^3.0.4"
+    "@rmwc/snackbar" "^3.0.4"
+    "@rmwc/switch" "^3.0.4"
+    "@rmwc/tabs" "^3.0.4"
+    "@rmwc/textfield" "^3.0.4"
+    "@rmwc/theme" "^3.0.4"
+    "@rmwc/toolbar" "^3.0.4"
+    "@rmwc/top-app-bar" "^3.0.4"
+    "@rmwc/typography" "^3.0.4"
+    material-components-web "~0.40.0"
 
 rsvp@^3.3.3:
   version "3.6.2"
@@ -7693,6 +8562,14 @@ symbol-tree@^3.2.2:
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/symbol-tree/-/symbol-tree-3.2.2.tgz#ae27db38f660a7ae2e1c3b7d1bc290819b8519e6"
 
+tabbable@^1.0.3:
+  version "1.1.3"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/tabbable/-/tabbable-1.1.3.tgz#0e4ee376f3631e42d7977a074dbd2b3827843081"
+
+tabbable@^3.1.0:
+  version "3.1.1"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/tabbable/-/tabbable-3.1.1.tgz#db7512f28a9a1ed16e4275bd190131be9d5ad8e9"
+
 table@^4.0.3:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/table/-/table-4.0.3.tgz#00b5e2b602f1794b9acaf9ca908a76386a7813bc"
@@ -8070,6 +8947,10 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
+value-equal@^0.4.0:
+  version "0.4.0"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/value-equal/-/value-equal-0.4.0.tgz#c5bdd2f54ee093c04839d71ce2e4758a6890abc7"
+
 vary@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
@@ -8103,6 +8984,18 @@ walker@~1.0.5:
   resolved "https://registry.yarnpkg.com/walker/-/walker-1.0.7.tgz#2f7f9b8fd10d677262b18a884e28d19618e028fb"
   dependencies:
     makeerror "1.0.x"
+
+warning@^3.0.0:
+  version "3.0.0"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/warning/-/warning-3.0.0.tgz#32e5377cb572de4ab04753bdf8821c01ed605b7c"
+  dependencies:
+    loose-envify "^1.0.0"
+
+warning@^4.0.1:
+  version "4.0.2"
+  resolved "https://netsertive.jfrog.io/netsertive/api/npm/npm-virtual/warning/-/warning-4.0.2.tgz#aa6876480872116fa3e11d434b0d0d8d91e44607"
+  dependencies:
+    loose-envify "^1.0.0"
 
 watch@~0.18.0:
   version "0.18.0"
@@ -8454,7 +9347,7 @@ xregexp@4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/xregexp/-/xregexp-4.0.0.tgz#e698189de49dd2a18cc5687b05e17c8e43943020"
 
-xtend@^4.0.0, xtend@~4.0.1:
+xtend@^4.0.0, xtend@^4.0.1, xtend@~4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/xtend/-/xtend-4.0.1.tgz#a5c6d532be656e23db820efb943a1f04998d63af"
 
