@@ -1,7 +1,7 @@
 import {Grid, GridCell} from '@rmwc/grid';
 
 import React from 'react';
-import SampleCard from '../components/SampleCard.component';
+import SampleCard from '../components/SampleCard';
 
 export default class CardPage extends React.PureComponent {
     render() {

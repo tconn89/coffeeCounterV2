@@ -1,6 +1,7 @@
 import Default from './pages/Default';
 import CardPage from './pages/CardPage';
 import Article from './pages/Article';
+import Charts from './pages/Charts';
 
 export const routes = [
     {
@@ -9,6 +10,12 @@ export const routes = [
         leftNav: true,
         name: 'Home',
         path: '/',
+    },
+    {
+        component: Charts,
+        leftNav: true,
+        name: 'Charts',
+        path: '/charts',
     },
     {
         component: CardPage,

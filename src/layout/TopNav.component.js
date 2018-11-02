@@ -11,14 +11,14 @@ import React from 'react';
 export default class TopNav extends React.Component {
     render() {
         return (
-            <TopAppBar>
+            <TopAppBar style={{backgroundColor: 'green'}}>
                 <TopAppBarRow>
                     <TopAppBarSection>
                     <TopAppBarNavigationIcon
                         icon="menu"
                         onClick={this.props.onMenuIconClick}
                     />
-                    <TopAppBarTitle>Website</TopAppBarTitle>
+                    <TopAppBarTitle>Random Quotes</TopAppBarTitle>
                     </TopAppBarSection>
                 </TopAppBarRow>
             </TopAppBar>
