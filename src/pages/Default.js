@@ -13,7 +13,7 @@ const selection = story.main.map(quote => quote.replace(/\n/g, '<br/>'))
 export default class Default extends React.Component {
     state = { data: {}}
     async componentDidMount(){
-        const url = 'http://localhost:3000';
+        const url = 'http://coffeelux.club:4000';
         const response = await fetchJsonp(url);
         const data = await response.json();
         console.log(data)
