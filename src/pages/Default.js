@@ -17,7 +17,8 @@ export default class Default extends React.Component {
         const response = await fetchJsonp(url);
         const data = await response.json();
         console.log(data)
-        this.setState({data: data.consumption[0]})
+        const latest = data.consumption.length - 1;
+        this.setState({data: data.consumption[latest]})
     }
     render() {
         const keys = Object.keys(this.state.data);
@@ -29,9 +30,11 @@ export default class Default extends React.Component {
                     <GridCell phone='0' span='2'>
                     </GridCell>
                     <GridCell phone='12' span='8'>
+                        { values.length ?
                         <div className='img-container'>
                             <Metric input={values[0]} />
-                        </div>
+                        </div> : 
+                        <div style={{height: '80px'}} /> }
                         <div className='img-container'>
                             <img src='/img/coffeecup.png' alt='Coffee Cup' />
                         </div>
