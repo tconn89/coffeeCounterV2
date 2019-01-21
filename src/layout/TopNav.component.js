@@ -18,7 +18,7 @@ export default class TopNav extends React.Component {
                         icon="menu"
                         onClick={this.props.onMenuIconClick}
                     />
-                    <TopAppBarTitle>Random Quotes</TopAppBarTitle>
+                    <TopAppBarTitle>Coffees Drank Today</TopAppBarTitle>
                     </TopAppBarSection>
                 </TopAppBarRow>
             </TopAppBar>

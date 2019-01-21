@@ -4,9 +4,7 @@ import logo from '../logo.svg';
 import { Button, Grid, GridCell } from 'rmwc';
 import QuoteCard from '../components/QuoteCard'
 import PolarChart from '../components/PolarChart'
-import Metric from '../components/Metric'
 import story from '../quotes/hardTimes'
-import '../css/default.css'
 
 const selection = story.main.map(quote => quote.replace(/\n/g, '<br/>'))
 
@@ -22,6 +20,7 @@ export default class Default extends React.Component {
     render() {
         const keys = Object.keys(this.state.data);
         const values = Object.values(this.state.data).map(value => parseInt(value));
+        console.log(keys)
         console.log(values)
         return (
             <div style={{background: '#ddd', width: '100%'}}>
@@ -29,15 +28,20 @@ export default class Default extends React.Component {
                     <GridCell phone='0' span='2'>
                     </GridCell>
                     <GridCell phone='12' span='8'>
-                        <div className='img-container'>
-                            <Metric input={values[0]} />
-                        </div>
-                        <div className='img-container'>
-                            <img src='/img/coffeecup.png' alt='Coffee Cup' />
-                        </div>
-                        <div className='metric-label'>
-                            <Metric input='DAILY CUP COUNT' />
-                        </div>
+
+                        { keys.length ? 
+                        (<PolarChart
+                            title='Substance Abuse'
+                            labels={keys}
+                            data={
+                            [
+                                {
+                                    dataPoints: values,
+                                    colors: ["rgba(200, 100, 0, 0.3)", "rgba(75, 192, 192, 0.3)", 'rgba(51, 187, 90, 0.3)', 'rgba(0,30, 100, 0.3)'],
+                                }
+                            ]
+                            }
+                        />) : (<div style={{height: '400px'}} />) }
                         <QuoteCard title={selection[0]} />
                     </GridCell>
                     <GridCell phone='0' span='2'>

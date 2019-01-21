@@ -36,7 +36,6 @@ PolarChart.propTypes = {
         }
     )),
 }
-
 let polarChart = (id, props) => new window.Chart(document.getElementById(id).getContext('2d'), {
     type: 'polarArea',
     data: {
@@ -46,5 +45,14 @@ let polarChart = (id, props) => new window.Chart(document.getElementById(id).get
                 backgroundColor: data.colors,
                 data: data.dataPoints,
             }))
+    },
+    options: {
+        startAngle: -0.25 * Math.PI,
+        scale: {
+            ticks: {
+                maxTicksLimit: 6,
+                // backdropColor: 'rgba(0,0,255, 0.7)'
+            }
+        }
     }
 });
